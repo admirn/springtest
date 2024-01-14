@@ -4,7 +4,9 @@ import com.admirnurkovic.qucikstart.services.BluePrinter;
 import com.admirnurkovic.qucikstart.services.ColourPrinter;
 import com.admirnurkovic.qucikstart.services.GreenPrinter;
 import com.admirnurkovic.qucikstart.services.RedPrinter;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ColourPrinterImpl implements ColourPrinter {
     private  BluePrinter bluePrinter;
     private  RedPrinter redPrinter;
